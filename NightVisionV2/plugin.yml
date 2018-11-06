@@ -1,0 +1,15 @@
+main: me.wsman217.NightVisionV2.Main
+name: NightVision
+version: 2.0
+author: wsman217
+description: A plugin that gives you night vision.
+commands: 
+  nightvision: 
+    description: Gives or takes away night vision.
+    usage: /nightvision
+    aliases: [nv]
+    permission: NV.command.use
+permissions:
+  NV.command.use: 
+    descritption: Allows user to use /NightVision or /NV
+    default: op
